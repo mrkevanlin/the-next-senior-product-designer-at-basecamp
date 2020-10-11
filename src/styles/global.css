@@ -1,0 +1,198 @@
+body {
+   background: #252525;
+   color: #ffffff;
+}
+
+section {
+   padding: 1rem;
+}
+
+a:link, a:visited {
+   color: #fff;
+}
+
+p {
+   color: #DEDEDE;
+   max-width: 37.5rem;
+   margin-bottom: 3rem;
+   font-size: 1.2rem;
+}
+
+h2 {
+   font-size: 1.8rem;
+   margin-bottom: 2rem;
+   font-weight: 800;
+}
+
+h3 {
+   font-size: 1rem;
+   margin-bottom: 0.5rem;
+}
+
+h4 {
+   font-size: 0.75rem;
+   text-transform: uppercase;
+   color: #797979;
+   margin-bottom: 0.75rem;
+}
+
+.grey-background {
+   background-color:#494949;
+   padding-top: 3rem;
+}
+
+nav { 
+   margin-top: 2rem;
+   padding: 1rem 0 0 2rem;
+}
+
+nav a, footer a {
+   margin-right: 1.25rem;
+   font-weight: 700;
+   font-size: 1rem;
+   text-decoration: none;
+   border-bottom: 2px solid #ffffff;
+   white-space: nowrap;
+}
+
+footer {
+   padding: 2rem;
+}
+
+.wrapper {
+   margin:auto;
+   max-width:75rem;
+}
+
+/* Filmstrip */
+.filmstrip { 
+   margin: 0 0 2rem 0;
+}
+
+.filmstrip img {
+   width: 100%;
+}
+
+/* Home */
+
+.section--hero {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   height:100%;
+   background-image: url(../images/hero-kevan.png);
+   background-position:right;
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-top: 4rem;
+   margin-bottom: 2rem;
+   padding-left: 2rem;
+}
+
+.section--hero h1 {
+   max-width: 40rem;
+   font-weight: 900;
+   line-height: 4rem;
+   letter-spacing:0.01rem;
+   font-size: 3rem;
+   margin-bottom: 6rem;
+}
+
+/* .section--hero h2 {
+   font-size: 1.2rem;
+   margin-bottom: 0.5rem;
+} */
+
+.section--hero ul {
+   list-style: none;
+   margin: 0 2rem 0 0;
+}
+
+.section--hero ul li {
+   margin:0;
+   font-size: 1.2rem;
+   font-weight: 200;
+   color:#9F9F9F;
+}
+
+.section--hero-list {
+   padding-left: 0;
+}
+
+@media screen and ( min-width: 600px ) {
+   .filmstrip img {
+      max-width: 8rem;
+   }
+}
+
+
+/* SECTION: Promo 
+/* This is meant to be a divider between sections 
+/* so as to interject the message that I want to be part
+/* of the consideration to be part of Basecamp
+*/ 
+
+.section--promo {
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+   padding-left: 1rem;
+}
+
+.section--promo h1 {
+   font-weight:900;
+   background: -webkit-linear-gradient(left,#3566E5, #EC5E5E);
+   background: -webkit-linear-gradient(left, #3566E5 , #EC5E5E);
+   background: -o-linear-gradient(right, #3566E5, #EC5E5E);
+   background: -moz-linear-gradient(right, #3566E5, #EC5E5E);
+   background: linear-gradient(to right, #3566E5 , #EC5E5E); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   padding-left: 1rem;
+}
+
+/* .section--promo h1:hover {
+   background: -webkit-linear-gradient(left,#EC5E5E,#3566E5);
+   background: -webkit-linear-gradient(left,#EC5E5E,#3566E5);
+   background: -o-linear-gradient(left,#EC5E5E,#3566E5);
+   background: -moz-linear-gradient(left,#EC5E5E,#3566E5);
+   background: linear-gradient(to right, #EC5E5E , #3566E5); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+} */
+
+/* MEDIA QUERIES */ 
+
+/* 
+/* Larger than Mobile affected styling
+*/ 
+
+@media screen and (max-width: 1000px ) {
+   nav a, footer a {
+      margin-right:0.75rem;
+   }
+}
+
+@media screen and (min-width: 640px ) {
+   .flex-container {
+      display: flex;
+   }
+}
+
+/* 
+/* Desktop only styling 
+*/
+
+@media screen and ( min-width: 75rem ) {
+   .section--hero {
+      padding-left: 1rem;
+   }
+   nav, footer {
+      padding-left: 1rem;
+   }
+   .section--promo h1 {
+      padding-left:0;
+   }
+}
+
+
+
