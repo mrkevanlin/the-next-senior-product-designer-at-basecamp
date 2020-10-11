@@ -43,7 +43,6 @@ h4 {
 }
 
 nav { 
-   
    padding: 1rem 0 0 2rem;
    flex-wrap: wrap;
 }
@@ -204,5 +203,12 @@ footer {
    }
 }
 
-
-
+@media (min-width: 200px) and (max-width: 500px) {
+   nav,footer {
+      display: flex;
+      flex-direction: column;
+   }
+   nav a, footer a {
+      margin-bottom: 1rem;
+   }
+}
