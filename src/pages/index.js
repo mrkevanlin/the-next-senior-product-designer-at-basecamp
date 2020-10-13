@@ -3,15 +3,16 @@ import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import HomeFilmstrip from "../components/home-filmstrip"
 import Promo from "../components/promo"
+import PrimaryButton from "../components/primaryButton"
 
 export default function Home() {
   return (
     <Layout>
-      <section className="section--hero wrapper flex-container">
+      <section className="section--hero section--hero-home wrapper flex-container">
         <h1>Kevan is a UX Designer who loves to speak in multiple languages.</h1>
         <div class="hero--details">
           <h4>I'm fluent in</h4>
-          <section className="section--hero-list wrapper flex-container">
+          <section className="section--hero-home-list wrapper flex-container">
             <ul>
               <li>The language of customers</li>
               <li>The language of business</li>
@@ -35,16 +36,18 @@ export default function Home() {
           <p>I’m a graphic designer turned UX designer who loves to be near the internet at all times. I love speaking the language of the customer and the developers who build the experience - <strong>that’s my happy place.</strong></p>
         
           <h3>What are you like outside of work?</h3>
-          <p>I am (hopefully) a loving husband to Holly, a fun father to Malakai and Eleos, and a doggy dad to Mr. Beau the English Setter. When I’m not needed to fulfill my familial duties, I am in the kitchen trying out different recipes. My latest endeavour has been baking my own sourdough (I started before this pandemic, I swear). Next up, pavlova. <Link to="/personal/">Learn more about me</Link>.</p>
+          <p>I am (hopefully) a loving husband to Holly, a fun father to Malakai and Eleos, and a doggy dad to Mr. Beau the English Setter. When I’m not needed to fulfill my familial duties, I am in the kitchen trying out different recipes. My latest endeavour has been baking my own sourdough (I started before this pandemic, I swear). Next up, pavlova. To get a more in-depth close up, check out my <Link to="/personal/">personal page</Link> .</p>
 
-          <HomeFilmstrip />
+          {/* <HomeFilmstrip /> */}
 
           <h3>Who do you work for?</h3>
           <p>Currently I work for Atlassian. I have been on the same team for 3 years 11 months working on the Atlassian Community (there’s a lot of sweat equity invested there). I was brought on to build out the community and was part of the team that shipped it. Fast forward a few years, and I’ve shipped some neat features, developed an experimentation culture, and create some epic year-end recap videos.</p>
+
+          <p><Link to="testimonials/">Read about what my teammates have said about me</Link>.</p>
           
           <p>Atlassian is a great place work. The level of autonomy is amazing. The people that work for Atlassian are smart and talented. My team is an amazing bunch of people that I love to surround myself with. But, as I drift away from getting into the codebase, and move away from customers, and am now in the orbit of what we should work on instead of doing the things we should. I want to go back to my happy place.</p>
 
-          <Link to="work/">See the work</Link>
+          <PrimaryButton buttonLink="/work/" buttonText="See the work"></PrimaryButton>
 
         </section>
       </section>

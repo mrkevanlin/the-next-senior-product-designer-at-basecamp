@@ -15,7 +15,16 @@ p {
    color: #DEDEDE;
    max-width: 37.5rem;
    margin-bottom: 3rem;
-   font-size: 1.2rem;
+   font-size: 1.1rem;
+}
+
+h1 {
+   max-width: 40rem;
+   font-weight: 900;
+   line-height: 4rem;
+   letter-spacing:0.01rem;
+   font-size: 3rem;
+   margin-bottom: 4rem;
 }
 
 h2 {
@@ -32,6 +41,7 @@ h3 {
 
 h4 {
    font-size: 0.75rem;
+   font-weight:800;
    text-transform: uppercase;
    color: #ffffff;
    margin-bottom: 0;
@@ -65,6 +75,19 @@ footer {
    max-width:75rem;
 }
 
+/* Utils */
+.button--primary {
+   padding: 23px 35px;
+   background: linear-gradient(90deg, #EC5E5E 0%, #3566E6 100%);
+   border-radius: 68px;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 900;
+   margin-bottom:2rem;
+   display:inline-block;
+}
+
+
 /* Filmstrip */
 .filmstrip { 
    margin: 0 0 2rem 0;
@@ -74,7 +97,15 @@ footer {
    width: 100%;
 }
 
-/* Home */
+@media screen and ( min-width: 600px ) {
+   .filmstrip img {
+      max-width: 8rem;
+   }
+}
+
+
+/* SECTION: HERO styles */
+/* Generic usage */ 
 
 .section--hero {
    display: flex;
@@ -82,43 +113,37 @@ footer {
    flex-direction: column;
    margin-top: 4rem;
    margin-bottom: 2rem;
-   padding-left: 2rem;
+   padding-left:2rem;
 }
 
-.section--hero h1 {
-   max-width: 40rem;
-   font-weight: 900;
-   line-height: 4rem;
-   letter-spacing:0.01rem;
-   font-size: 3rem;
-   margin-bottom: 6rem;
+.section--hero h2 {
+   max-width: 26rem;
+   font-weight:600;
+   font-size: 1.3rem;
+   line-height: 2rem;
 }
 
-/* .section--hero h2 {
-   font-size: 1.2rem;
-   margin-bottom: 0.5rem;
-} */
 
-.section--hero ul {
+/* SECTION: HERO HOME STYLES */
+
+.section--hero-home h1 {
+   margin-bottom: 6rem; 
+}
+
+.section--hero-home ul {
    list-style: none;
    margin: 0 2rem 0 0;
 }
 
-.section--hero ul li {
+.section--hero-home ul li {
    margin:0;
    font-size: 1.2rem;
    font-weight: 200;
    color:#9F9F9F;
 }
 
-.section--hero-list {
+.section--hero-home-list {
    padding-left: 0;
-}
-
-@media screen and ( min-width: 600px ) {
-   .filmstrip img {
-      max-width: 8rem;
-   }
 }
 
 
@@ -156,7 +181,37 @@ footer {
    -webkit-text-fill-color: transparent;
 } */
 
-/* MEDIA QUERIES */ 
+
+/*
+* —------------------------ SECTION: Testimonials —------------------------
+*/
+
+.section--testimonials {
+   background-color:#494949;
+}
+
+
+/*
+* ========================= PAGE: Resume =========================
+*/
+
+.resume--details h4 {
+   margin-bottom: 0.5rem;
+}
+
+.resume--details ul {
+   list-style: none;
+   margin:0 0 1rem 0;
+}
+.resume--details ul li {
+   margin:0;
+   color:#989898;
+}
+
+
+/*
+* ========================= Responsive styles =========================
+*/
 
 /* 
 /* Larger than Mobile affected styling
@@ -172,7 +227,7 @@ footer {
    .flex-container {
       display: flex;
    }
-   .section--hero {
+   .section--hero-home {
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -203,10 +258,15 @@ footer {
    }
 }
 
+/*
+/* Mobile stying ONLY
+*/
+
 @media (min-width: 200px) and (max-width: 500px) {
    nav,footer {
       display: flex;
       flex-direction: column;
+      padding-right:1rem;
    }
    nav a, footer a {
       margin-bottom: 1rem;
