@@ -194,9 +194,21 @@ footer {
 /*
 * ========================= PAGE: Resume =========================
 */
+.resume--details h3 {
+   font-weight: 800;
+   margin-bottom: 0.5rem;
+}
 
 .resume--details h4 {
    margin-bottom: 0.5rem;
+   text-transform: none;
+   font-weight: 700;
+   font-size: 1.2rem;
+}
+
+.resume--details p {
+   margin-bottom: 1.4rem;
+   line-height: 1.8rem;
 }
 
 .resume--details ul {
@@ -206,6 +218,20 @@ footer {
 .resume--details ul li {
    margin:0;
    color:#989898;
+   font-size:0.8rem;
+}
+
+.resume--entry { 
+   display:flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   margin-bottom: 5rem;
+}
+
+.resume--entry img { 
+   height: 65px;
+   width: 64px;
+   margin-right: 2rem;
 }
 
 
@@ -239,6 +265,9 @@ footer {
       margin-top: 4rem;
       margin-bottom: 2rem;
       padding-left: 2rem;
+   }
+   .resume--entry {
+      flex-direction: row;
    }
 }
 

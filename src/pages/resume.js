@@ -5,6 +5,11 @@ import PrimaryButton from "../components/primaryButton"
 import Promo from "../components/promo"
 import ResumeEntry from "../components/resumeEntry"
 import Atlassian from "../images/atlassian.png"
+import Amazon from "../images/amazon.png"
+import DTS from "../images/dts.png"
+import Spiceworks from "../images/spiceworks.png"
+import tOSU from "../images/tosu.png"
+import Bostwick from "../images/bostwick.png"
 
 export default function Resume() {
    return (
@@ -33,7 +38,7 @@ export default function Resume() {
                </div>
 
                <div className="resume--entry">
-                  <img src={Atlassian} alt="Amazon Logo" />
+                  <img src={Amazon} alt="Amazon Logo" />
                   <div class="resume--details">
                      <h3>User Experience Designer</h3>
                      <h4>Amazon</h4>
@@ -46,9 +51,9 @@ export default function Resume() {
                </div>
 
                <div className="resume--entry">
-                  <img src={Atlassian} alt="Spiceworks Logo" />
+                  <img src={Spiceworks} alt="Spiceworks Logo" />
                   <div class="resume--details">
-                     <h3>Senior Design</h3>
+                     <h3>Senior Designer</h3>
                      <h4>Spiceworks</h4>
                      <ul>
                         <li>Apr 2014 - Apr 2016</li>
@@ -59,7 +64,7 @@ export default function Resume() {
                </div>
 
                <div className="resume--entry">
-                  <img src={Atlassian} alt="DTS Logo" />
+                  <img src={DTS} alt="DTS Logo" />
                   <div class="resume--details">
                      <h3>Associate Director of Visual Design</h3>
                      <h4>Dallas Theological Seminary</h4>
@@ -72,7 +77,7 @@ export default function Resume() {
                </div>
                
                <div className="resume--entry">
-                  <img src={Atlassian} alt="DTS Logo" />
+                  <img src={DTS} alt="DTS Logo" />
                   <div class="resume--details">
                      <h3>Video Editor</h3>
                      <h4>Dallas Theological Seminary</h4>
@@ -80,14 +85,14 @@ export default function Resume() {
                         <li>Aug 2010 - Oct 2011</li>
                         <li>Dallas, Texas</li>
                      </ul>
-                     <p>Responsible for Pre-Production tasks: Location scouting, media preparation, equipment preparation, etc.</p>
-                     <p>Production work: Camera Operator, Continuity editor, DP</p>
-                     <p>Post-Production Tasks: 1st Editor, Colorist, Motion Graphics, Add/Removal of objects.</p>
+                     <p>Responsible for Pre-Production tasks: Location scouting, media preparation, equipment preparation, etc.<br />
+                     Production work: Camera Operator, Continuity editor, DP <br />
+                     Post-Production Tasks: 1st Editor, Colorist, Motion Graphics, Add/Removal of objects.</p>
                   </div>
                </div>
 
                <div className="resume--entry">
-                  <img src={Atlassian} alt="OSU Logo" />
+                  <img src={tOSU} alt="OSU Logo" />
                   <div class="resume--details">
                      <h3>Media Specialist</h3>
                      <h4>Fisher College of Business at The Ohio State University</h4>
@@ -100,7 +105,7 @@ export default function Resume() {
                </div>
 
                <div className="resume--entry">
-                  <img src={Atlassian} alt="OSU Logo" />
+                  <img src={tOSU} alt="OSU Logo" />
                   <div class="resume--details">
                      <h3>Production Assistant</h3>
                      <h4>Fisher College of Business at The Ohio State University</h4>
@@ -113,7 +118,7 @@ export default function Resume() {
                </div>
 
                <div className="resume--entry">
-                  <img src={Atlassian} alt="OSU Logo" />
+                  <img src={Bostwick} alt="Bostwick Design Partnership Logo" />
                   <div class="resume--details">
                      <h3>Graphic Design Intern</h3>
                      <h4>Bostwick Design Partnership</h4>
@@ -127,7 +132,7 @@ export default function Resume() {
             </section>
                
          </section>
-         <Promo promoText="I Think Basecamp is my next happy place." />
+         <Promo promoText="I think Basecamp is my next happy place." />
       </Layout>
    )
 }
