@@ -132,7 +132,6 @@ export default function Resume() {
             </section>
                
          </section>
-         <Promo promoText="I think Basecamp is my next happy place." />
       </Layout>
    )
 }

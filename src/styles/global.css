@@ -190,6 +190,60 @@ footer {
    background-color:#494949;
 }
 
+.section--good-reviews {
+   margin:0;
+   padding: 0;
+}
+
+.section--bad-reviews {
+   padding: 0;
+}
+
+.section--case-studies {
+   padding: 0;
+}
+
+/*
+* ========================= Tabs =========================
+*/
+
+.tab-list {  
+   border-bottom: 4px solid #5F5E5E;
+   padding-left: 0;
+   margin:1rem 0 0 0;
+ }
+ 
+ .tab-list-item {
+   display: inline-block;
+   list-style: none;
+   margin-bottom: -1px;
+   padding: 0.5rem 0;
+   font-weight: 600;
+   margin-right: 1.6rem;
+ }
+
+ .tab-list-item:hover {
+    cursor:pointer;
+    border-bottom: 4px solid #57CAEF;
+    color: #57CAEF;
+ }
+ 
+ .tab-list-active {
+   border-bottom: 4px solid #57CAEF;
+   color: #57CAEF;
+ }
+
+ .tab-content {
+    margin: 3rem 0 4rem 0;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .section--reviews {
+    display: flex;
+    flex-direction: column;
+ }
+
 
 /*
 * ========================= PAGE: Resume =========================
@@ -268,6 +322,12 @@ footer {
    }
    .resume--entry {
       flex-direction: row;
+   }
+   .section--reviews {
+      flex-direction: row;
+   }
+   .section--good-reviews {
+      margin-right: 4rem;
    }
 }
 
