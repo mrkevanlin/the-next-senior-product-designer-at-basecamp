@@ -17,7 +17,7 @@ export default function QBS() {
    return (
       <Layout>
          <section className="section--hero wrapper flex-container">
-            <h1>Improving the create question experience through personalization.</h1>
+            <h1>Improving the question creation experience with personalization.</h1>
             <h2>By leveraging customer data, I was able to deliver a best-in-class support experience.</h2>
          </section>
          <section className="grey-background">

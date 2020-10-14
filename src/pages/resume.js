@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
-import PrimaryButton from "../components/primaryButton"
+import SecondaryButton from "../components/secondaryButton"
 import Promo from "../components/promo"
 import ResumeEntry from "../components/resumeEntry"
 import Atlassian from "../images/atlassian.png"
@@ -31,10 +31,10 @@ export default function Resume() {
                      </ul>
                      
                      <p>With over 2 million community members contributing over 850,000+ posts, the Atlassian Community is the premier place to connect, share and learn all things Atlassian. It's my responsibility to ensure ease of use for all roles of the community.</p>
-                     <p>I have the amazing opportunity to work with community management, front and back-end engineers, and great product management. It's my role to bring design thinking into our weekly agile sprints as well as our overall strategy for the community.</p>
-                     <p>Practicing design on this team includes engaging in customer interviews, generative research, usability testing, rapid prototyping, a/b and multivariate testing, service blueprints, journey mapping, and user interface design.</p>
+                     <p>I have the amazing opportunity to work with community management, front &amp; back-end engineers, and great product management. It's my role to bring design thinking into our weekly agile sprints as well as our overall strategy for the community.</p>
+                     <p>Practicing design on this team includes engaging in customer interviews, generative research, usability testing, rapid prototyping, a/b and multivariate testing, service blueprints, journey mapping, and designing user interfaces.</p>
                      <p>Working in a cross-disciplinary triad helps ensure that desirability, usability and feasibility are thought of at every step of the way. It's my sole responsibility to ensure that the users' needs are always at the center of our work.</p>
-                     <PrimaryButton buttonLink="/work/" buttonText="See the work"></PrimaryButton>
+                     <SecondaryButton buttonLink="/work/" buttonText="See the work"></SecondaryButton>
                   </div>
                </div>
 
@@ -60,7 +60,7 @@ export default function Resume() {
                         <li>Apr 2014 - Apr 2016</li>
                         <li>Austin, Texas</li>
                      </ul>
-                     <p>In my four year tenure at Spiceworks, there has been no short of work that I haven't done. Still in it's infancy, the then startup necessitated for me to get scrappy and get things done. Worked on everything from event branding for a 2,500+ annual conference, identity work on sub brands for the company, then eventually shifted focus to the digital design domain. It was in that space that I was responsible for art direction, planning and implementation of data research solution products. Was the lead designer on crafting an internet resource hub of all of the online publications for Spiceworks.</p>
+                     <p>In my four year tenure at Spiceworks, there wasn't any kind of work that I didn't do. Which included everything from event branding for a 2,500+ person annual conference, identity work on sub brands for the company, then eventually shifted focus to the digital design domain. It was in that space that I was responsible for art direction, planning and implementation of data research solution products. Was the lead designer on crafting an internet resource hub of all of the online publications for Spiceworks.</p>
                   </div>
                </div>
 

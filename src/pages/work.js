@@ -33,7 +33,7 @@ export default function Work() {
                   <li>Developer relations</li>
                </ul>
                <p>Typically, whenever you are asking a question to the Atlassian Community, you're in need of help surrounding one of Atlassian products. Because we have so many products with similar names, why not show you the products you have and let that be your starting point? By matching your data to your question, it enables the Atlassian Community to get you an answer faster.</p>
-               <SecondaryButton buttonText="Read more" buttonLink="/work/improving-the-create-question-experience-through-personalization/"></SecondaryButton>
+               <SecondaryButton buttonText="Read more" buttonLink="/work/improving-the-question-creation-experience-with-personalization/"></SecondaryButton>
             </section>
          </section>
       </Layout>
