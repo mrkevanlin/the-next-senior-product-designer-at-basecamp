@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Link } from "gatsby"
 import PrimaryButton from "../components/primaryButton"
 import Promo from "../components/promo"
 import ResumeEntry from "../components/resumeEntry"
@@ -15,8 +14,9 @@ export default function Resume() {
    return (
       <Layout>
          <section className="section--hero wrapper flex-container">
-            <h1>Yes, it is about where I've come from</h1>
-            <h2>… But it's also where I'm going, too.</h2>
+            {/* <h1>History of hiring choices</h1> */}
+            <h1>A record of handshakes through time and with different employers.</h1>
+            <h2>"Hiring people is like making friends. Pick good ones, and they'll enrich your life. Make bad choices, and they'll bring you down." <span class="author">-Jason Fried</span></h2>
          </section>
          <section className="grey-background">
             <section className="wrapper">
@@ -34,6 +34,7 @@ export default function Resume() {
                      <p>I have the amazing opportunity to work with community management, front and back-end engineers, and great product management. It's my role to bring design thinking into our weekly agile sprints as well as our overall strategy for the community.</p>
                      <p>Practicing design on this team includes engaging in customer interviews, generative research, usability testing, rapid prototyping, a/b and multivariate testing, service blueprints, journey mapping, and user interface design.</p>
                      <p>Working in a cross-disciplinary triad helps ensure that desirability, usability and feasibility are thought of at every step of the way. It's my sole responsibility to ensure that the users' needs are always at the center of our work.</p>
+                     <PrimaryButton buttonLink="/work/" buttonText="See the work"></PrimaryButton>
                   </div>
                </div>
 

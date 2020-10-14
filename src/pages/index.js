@@ -38,7 +38,7 @@ export default function Home() {
           <h3>What are you like outside of work?</h3>
           <p>I am (hopefully) a loving husband to Holly, a fun father to Malakai and Eleos, and a doggy dad to Mr. Beau the English Setter. When I’m not needed to fulfill my familial duties, I am in the kitchen trying out different recipes. My latest endeavour has been baking my own sourdough (I started before this pandemic, I swear). Next up, pavlova. To get a more in-depth close up, check out my <Link to="/personal/">personal page</Link> .</p>
 
-          {/* <HomeFilmstrip /> */}
+          <HomeFilmstrip />
 
           <h3>Who do you work for?</h3>
           <p>Currently I work for Atlassian. I have been on the same team for 3 years 11 months working on the Atlassian Community (there’s a lot of sweat equity invested there). I was brought on to build out the community and was part of the team that shipped it. Fast forward a few years, and I’ve shipped some neat features, developed an experimentation culture, and create some epic year-end recap videos.</p>

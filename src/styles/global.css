@@ -50,6 +50,7 @@ h4 {
 .grey-background {
    background-color:#494949;
    padding-top: 3rem;
+   padding-bottom: 3rem;
 }
 
 nav { 
@@ -75,6 +76,19 @@ footer {
    max-width:75rem;
 }
 
+ul {
+   list-style: none;
+   margin:0 6rem 3rem 0;
+}
+
+ul li {
+   margin-bottom: 0;
+}
+
+ul li:first-child {
+   margin-bottom: 0.5rem;
+}
+
 /* Utils */
 .button--primary {
    padding: 23px 35px;
@@ -85,6 +99,36 @@ footer {
    font-weight: 900;
    margin-bottom:2rem;
    display:inline-block;
+}
+
+.button--secondary {
+   padding: 6px 17px;
+   background: linear-gradient(90deg, #EC5E5E 0%, #3566E6 100%);
+   border-radius: 68px;
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: 700;
+   margin-bottom: 2rem;
+   display:inline-block;
+}
+
+.author {
+   display:block;
+   color:#494949;
+   font-size: 1rem;
+}
+.txt-clipping {
+   padding:0 0.5rem;
+   vertical-align: middle;
+   background-color:#ffffff;
+   -webkit-box-decoration-break: clone;
+   box-decoration-break: clone;
+   border-radius:0.5rem;
+   color:#494949;
+}
+
+.txt-clipping--subtle {
+   background: linear-gradient(90deg, #fee5da 0%, #fee5da 100%);
 }
 
 
@@ -290,6 +334,43 @@ footer {
 
 
 /*
+* ========================= PAGE: Work =========================
+*/
+
+.section--case-study-preview h3 {
+   margin-bottom: 2rem;
+}
+
+.section--case-study-preview ul {
+   list-style: none;
+   margin:0 0 1rem 0;
+}
+
+.section--case-study-preview ul li {
+   padding: 4px 20px; 
+   border-radius: 12px;
+   background: rgb(103 103 103 / 0.8);
+   color: rgb(243 249 255 / 0.9);
+   font-weight: 800;
+   font-size:0.8rem;
+   display: inline-block;
+   margin-right: 0.5rem;
+}
+
+span.label--heading {
+   display: inline-block;
+   margin-bottom: 0.5rem;
+   margin-right: 1.6rem;
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 0.75rem;
+   color:#989898;
+}
+
+
+
+
+/*
 * ========================= Responsive styles =========================
 */
 
@@ -359,5 +440,8 @@ footer {
    }
    nav a, footer a {
       margin-bottom: 1rem;
+   }
+   span.label--heading { 
+      display: block;
    }
 }
