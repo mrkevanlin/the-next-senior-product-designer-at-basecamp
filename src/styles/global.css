@@ -134,7 +134,7 @@ ul li:first-child {
 
 /* Filmstrip */
 .filmstrip { 
-   margin: 0 0 2rem 0;
+   margin: 0 0 0 0;
 }
 
 .filmstrip img {
@@ -404,6 +404,15 @@ span.label--heading {
       margin-top: 4rem;
       margin-bottom: 2rem;
       padding-left: 2rem;
+   }
+   .section--hero-personal {
+      background-image: url(../images/hero-personal.png);
+      justify-content: center;
+      flex-direction: column;
+      height:100%;
+      background-position:right;
+      background-repeat: no-repeat;
+      background-size: contain;
    }
    .resume--entry {
       flex-direction: row;
