@@ -9,6 +9,7 @@ import DTS from "../images/dts.png"
 import Spiceworks from "../images/spiceworks.png"
 import tOSU from "../images/tosu.png"
 import Bostwick from "../images/bostwick.png"
+import FlatIron from "../images/flatironschool.png"
 
 export default function Resume() {
    return (
@@ -20,23 +21,39 @@ export default function Resume() {
          </section>
          <section className="grey-background">
             <section className="wrapper">
-               <div className="resume--entry">
-                  <img src={Atlassian} alt="Atlassian Logo" />
-                  <div class="resume--details">
-                     <h3>User Experience Designer</h3>
-                     <h4>Atlassian</h4>
-                     <ul>
-                        <li>Nov 2016 - Present</li>
-                        <li>Austin, Texas</li>
-                     </ul>
-                     
-                     <p>With over 2 million community members contributing over 850,000+ posts, the Atlassian Community is the premier place to connect, share and learn all things Atlassian. It's my responsibility to ensure ease of use for all roles of the community.</p>
-                     <p>I have the amazing opportunity to work with community management, front &amp; back-end engineers, and great product management. It's my role to bring design thinking into our weekly agile sprints as well as our overall strategy for the community.</p>
-                     <p>Practicing design on this team includes engaging in customer interviews, generative research, usability testing, rapid prototyping, a/b and multivariate testing, service blueprints, journey mapping, and designing user interfaces.</p>
-                     <p>Working in a cross-disciplinary triad helps ensure that desirability, usability and feasibility are thought of at every step of the way. It's my sole responsibility to ensure that the users' needs are always at the center of our work.</p>
-                     <SecondaryButton buttonLink="/work/" buttonText="See the work"></SecondaryButton>
+               <div class="flex-container">
+                  <div className="resume--entry">
+                     <img src={Atlassian} alt="Atlassian Logo" />
+                     <div class="resume--details">
+                        <h3>User Experience Designer</h3>
+                        <h4>Atlassian</h4>
+                        <ul>
+                           <li>Nov 2016 - Present</li>
+                           <li>Austin, Texas</li>
+                        </ul>
+                        
+                        <p>With over 2 million community members contributing over 850,000+ posts, the Atlassian Community is the premier place to connect, share and learn all things Atlassian. It's my responsibility to ensure ease of use for all roles of the community.</p>
+                        <p>I have the amazing opportunity to work with community management, front &amp; back-end engineers, and great product management. It's my role to bring design thinking into our weekly agile sprints as well as our overall strategy for the community.</p>
+                        <p>Practicing design on this team includes engaging in customer interviews, generative research, usability testing, rapid prototyping, a/b and multivariate testing, service blueprints, journey mapping, and designing user interfaces.</p>
+                        <p>Working in a cross-disciplinary triad helps ensure that desirability, usability and feasibility are thought of at every step of the way. It's my sole responsibility to ensure that the users' needs are always at the center of our work.</p>
+                        <SecondaryButton buttonLink="/work/" buttonText="See the work"></SecondaryButton>
+                     </div>
+                  </div>
+                  <div class="flex-container">
+                     <div className="resume--entry resume--entry-mentor">
+                        <img src={FlatIron} alt="Flatiron School" />
+                        <div class="resume--details">
+                           <h3>Mentor</h3>
+                           <h4>Flatiron School</h4>
+                           <ul>
+                              <li>June 2015 - Present</li>
+                           </ul>
+                           <p>I have been proudly serving as a UX mentor to students just leaving their programs and getting into real jobs and careers. I have helped 8 students find full-time design positions.</p>
+                        </div>
+                     </div>
                   </div>
                </div>
+               
 
                <div className="resume--entry">
                   <img src={Amazon} alt="Amazon Logo" />

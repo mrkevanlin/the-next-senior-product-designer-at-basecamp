@@ -332,6 +332,10 @@ ul li:first-child {
    margin-right: 2rem;
 }
 
+.resume--entry-mentor {
+   margin-left: 4rem;
+}
+
 
 /*
 * ========================= PAGE: Work =========================
@@ -443,5 +447,9 @@ span.label--heading {
    }
    span.label--heading { 
       display: block;
+   }
+   .resume--entry-mentor {
+      margin-bottom:4rem;;
+      margin-left: 0;
    }
 }
