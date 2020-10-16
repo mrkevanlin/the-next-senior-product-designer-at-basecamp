@@ -23,7 +23,7 @@ export default function QBS() {
          <section className="grey-background">
             <section className="section--case-study wrapper">
                <h2>Background</h2>
-               <p>Atlassian products are either hosted in the cloud or on premise. Sometimes this distinction is known by the customer and often times it is not. In the effort of maximizing accuracy of posts being categorized correctly, that is to say that posts about <em>Product X</em> actually go to <em>Product X</em>. The design process and a new technology layer provided a blend of customer success.</p>
+               <p>Atlassian products are either hosted in the cloud or on premise. Sometimes this distinction is known by the customer but often times it is not. In the effort of maximizing accuracy of posts being categorized correctly, that is to say that posts about <em>Product X</em> actually go to <em>Product X</em>. Leaning into the UX design process and investigating a new technology service provided a blend of customer success.</p>
             </section>
             <section className="section--case-study wrapper">
                <h2>Details</h2>
@@ -41,6 +41,9 @@ export default function QBS() {
                   <ul>
                      <li><strong>Collaborators</strong></li>
                      <li>Junior UX Designer</li>
+                     <li>Principal PM</li>
+                     <li>Backend Engineer</li>
+                     <li>Frontend Engineer</li>
                   </ul>
                </div>
             </section>
@@ -48,12 +51,12 @@ export default function QBS() {
             <section className="section--case-study wrapper">
                <h2>The problem</h2>
                <p>With a recent feature update to the way posts were being cataloged, even though the posts were getting to the right categories, the surrounding contextual information about the post were still missing or incomplete. Specifically around hosting types as a primary concern. When this information is not available to the answerer, there are extra steps involved in asking the original poster to provide these details, so that they can get an accurate response.</p>
-               <p>People who are not Atlassian staff account for 10-12% of the population but answer 60% of questions that get asked on the site. It's imperative that these people have what is necessary for them to answer questions in a timely and streamlined manner.</p>
+               <p>People who are not Atlassian staff account for 10-12% of the population but answer 80% of questions that get asked on the site. It's imperative that these people have what is necessary for them to answer questions in a timely and streamlined manner.</p>
             </section>
                
             <section className="section--case-study wrapper">
                <h2>Business metrics</h2>
-               <p>Support had made the conscious decision for community to be the preferred route for troubleshooting and resolution (for select products and hosting types). Due to this shift in strategy, the community would need to scale its ability to receive these people and ensure they have a solid support experience. Personalization of the customer’s entitlements enables the community to be able to capture the right data, so that answers can be given quickly and accurately as possible.</p>
+               <p>Support had made the conscious decision for community to be the preferred route for troubleshooting and resolution (for select products and hosting types). Due to this shift in strategy, the community would need to scale its ability to receive these questions and ensure they have a solid support experience. Personalization of the customer’s products enables the community to be able to capture the right data, so that answers can be given quickly and accurately as possible.</p>
             </section>
             
             <section className="section--case-study wrapper">
