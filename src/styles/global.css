@@ -11,7 +11,7 @@ a:link, a:visited {
    color: #fff;
 }
 
-p, h1, h2, h3, h4, ul li, ol li { 
+p, h1, h2, h3, h4, ul li, ol li, small { 
    max-width: 37.5rem;
 }
 
@@ -96,6 +96,53 @@ ul li:first-child {
    margin-bottom: 0.5rem;
 }
 
+small {
+   color:#989898;
+}
+
+blockquote {
+   border-left: 6px solid #989898;
+   padding-left: 24px;
+   color: #989898;
+}
+
+blockquote strong {
+   color:#f2f2f2;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+table tr, table td {
+   border-color: #989898;
+   border-width: 1px;
+   border-style: solid;
+   border-image: initial;
+   color: #cecece;
+}
+
+table td strong {
+   color: #fff;
+}
+
+th:first-child, td:first-child {
+   padding-left:1.11067rem;
+}
+th:last-child, td:last-child {
+   padding-right: 1.11067rem;
+}
+
+table thead {
+   background-color: rgba(60,60,60);
+   font-weight: 700;
+}
+
+table thead td {
+   color: #ffffff;
+}
+
 /* Utils */
 .button--primary {
    padding: 23px 35px;
@@ -138,6 +185,39 @@ ul li:first-child {
    background: linear-gradient(90deg, #fee5da 0%, #fee5da 100%);
 }
 
+.subscript {
+   font-size:0.75rem;
+   color: #989898;
+}
+
+.lozenge {
+   background-color: rgb(223, 225, 230);
+   border-top-left-radius: 3px;
+   border-top-right-radius: 3px;
+   border-bottom-right-radius: 3px;
+   border-bottom-left-radius: 3px;
+   box-sizing: border-box;
+   color: rgb(66, 82, 110);
+   display: inline-block;
+   font-size: 11px;
+   font-weight: 700;
+   line-height: 1;
+   max-width: 100%;
+   padding:4px;
+   text-transform: uppercase;
+   vertical-align: baseline;
+   margin-bottom: 1rem;
+}
+
+.lozenge--green {
+   background-color: rgb(34,131,81);
+   color: rgb(255,255,255);
+}
+
+.lozenge--red {
+   background-color: rgb(240,16,16);
+   color: rgb(255,255,255);
+}
 
 /* Filmstrip */
 .filmstrip { 

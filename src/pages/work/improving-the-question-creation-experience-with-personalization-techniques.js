@@ -12,7 +12,6 @@ import qbsFinal2 from '../../images/qbs-final-2.png'
 import qbsFinal3 from '../../images/qbs-final-3.png'
 import qbsFinal4 from '../../images/qbs-final-4.png'
 import qbsFinalPostPage from '../../images/qbs-published-post-page.png'
-import qbsHero from '../../images/hero-qbs.png'
 
 export default function QBS() {
    return (
@@ -22,7 +21,6 @@ export default function QBS() {
                <h1>Improving the question creation experience with personalization techniques.</h1>
                <h2>By speaking to our customers and leveraging customer data, I was able to deliver a best-in-class support experience.</h2>
             </div>
-            {/* <img src={qbsHero} alt="Improving the question creation experiencing with personalization technique" /> */}
          </section>
          <section className="grey-background">
             <section className="section--case-study wrapper">
