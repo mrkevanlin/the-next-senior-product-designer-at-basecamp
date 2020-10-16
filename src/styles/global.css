@@ -4,16 +4,19 @@ body {
 }
 
 section {
-   padding: 1rem;
+   padding: 1rem 1rem 0 1rem;
 }
 
 a:link, a:visited {
    color: #fff;
 }
 
+p, h1, h2, h3, h4, ul li, ol li { 
+   max-width: 37.5rem;
+}
+
 p {
    color: #DEDEDE;
-   max-width: 37.5rem;
    margin-bottom: 3rem;
    font-size: 1.1rem;
 }
@@ -37,6 +40,10 @@ h3 {
    font-size: 1.75rem;
    line-height: 2.4rem;
    margin-bottom: 1rem;
+}
+
+h3 > a:link {
+   text-decoration: none;
 }
 
 h4 {
@@ -359,6 +366,7 @@ ul li:first-child {
    font-size:0.8rem;
    display: inline-block;
    margin-right: 0.5rem;
+   margin-bottom: 1rem;
 }
 
 span.label--heading {
@@ -371,6 +379,9 @@ span.label--heading {
    color:#989898;
 }
 
+/*
+* ========================= Case Study Pages =========================
+*/
 
 
 

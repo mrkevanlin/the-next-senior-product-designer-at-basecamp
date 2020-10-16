@@ -27,9 +27,9 @@ export default function Testimonials() {
                         <p>“I would suggest Kevan continue to work on improving story telling particularly with stakeholders. We are one team and yes we have a value “Open Company No Bullshit” but stakeholders are also customers and I want to make sure they always see Kevan at his best.”</p>
                      </section>
                   </div>
-                  <section className="section--case-studies">
+                  {/* <section className="section--case-studies">
                      Case Studies go here
-                  </section>
+                  </section> */}
                </div> 
                <div label="Business focus"> 
                   <div className="section--reviews">
@@ -45,9 +45,9 @@ export default function Testimonials() {
                         <p>“I’d love to see Kevan tackle more meaty problems and seek more leadership opportunities because I believe he would do well as long as he prioritizes decision making and his time well.”</p>
                      </section>
                   </div>
-                  <section className="section--case-studies">
+                  {/* <section className="section--case-studies">
                      Case Studies go here
-                  </section>
+                  </section> */}
                </div> 
                <div label="Developer relations"> 
                   <div className="section--reviews">
@@ -62,9 +62,9 @@ export default function Testimonials() {
                         <p>“I do think there is room for improvement in terms of bringing outside stakeholders in earlier to ensure alignment as well as reducing potential for duplicate work. I realize that this is a 2-way street and we do not always get this from stakeholders but we can lead by example.”</p>
                      </section>
                   </div>
-                  <section className="section--case-studies">
+                  {/* <section className="section--case-studies">
                      Case Studies go here
-                  </section>
+                  </section> */}
                </div> 
                <div label="Teamwork"> 
                   <div className="section--reviews">
@@ -78,9 +78,9 @@ export default function Testimonials() {
                         <p>“I think one thing to work on to make everyone more impactful is to be a little bit more clear and concise while presenting things to the team. You are a natural when you are speaking from the gut and sharing what you are comfortable with.”</p>
                      </section>
                   </div>
-                  <section className="section--case-studies">
+                  {/* <section className="section--case-studies">
                      Case Studies go here
-                  </section>
+                  </section> */}
                </div> 
             </Tabs> 
          </section>
