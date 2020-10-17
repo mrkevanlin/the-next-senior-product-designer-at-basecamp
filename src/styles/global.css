@@ -144,7 +144,10 @@ table thead td {
    color: #ffffff;
 }
 
-/* Utils */
+/*
+* —------------------------ Utilities  —------------------------
+*/
+
 .button--primary {
    padding: 23px 35px;
    background: linear-gradient(90deg, #EC5E5E 0%, #3566E6 100%);

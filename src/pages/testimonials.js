@@ -17,7 +17,7 @@ export default function Testimonials() {
                   <div className="section--reviews">
                      <section className="section--good-reviews">
                         <h3>The good stuff</h3>
-                        <p>"Kevan holds customers at the highest level of importance. He is an individual that will always go the extra mile to ensure we are considering the customer.”</p>
+                        <p>"<span className="highlight">Kevan holds customers at the highest level of importance</span>. He is an individual that will always go the extra mile to ensure we are considering the customer.”</p>
                         <p>“Your impact on customers is immense. You clearly care about customers and bring that passion and concern to all of our efforts. Please keep being the advocate of the customer because sometimes their voice can be lost in the hustle and bustle of OKRS, professional services, etc.”</p>
                         <p>“Kevan anticipates problems and consisently takes a customer view when finding solutions, respectfully challenging the team in problem solving conversations.”</p>
                      </section>

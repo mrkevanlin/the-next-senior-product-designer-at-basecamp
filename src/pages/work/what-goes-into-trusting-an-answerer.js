@@ -50,29 +50,68 @@ export default function ProfileCard() {
             <section className="section--case-study wrapper">
                <h2>What's known about this space?</h2>
                <p>Currently visitors are using a combination of signals to determine credibility:</p>
-               <ul>
-                    <li>Number of upvotes on the answer</li>
-                    <li>Number and types of responses on the answer</li>
-                    <li>Hover card (mini profile card)
-                        <ul>
-                            <li>Number of posts – a lot or a little?</li>
-                            <li>Name – is it a human name or an obscure name?</li>
-                            <li>Avatar – Do they have one? Is it real face? Initials?</li>
-                            <li>Badges earned – Which badges were earned specifically?</li>
-                            <li>Location – Where are they located in the world?</li>
-                            <li>Company name – What size of company do they work for?</li>
-                            <li>Job title – Is it even in the realm of someone who I'd trust? Same industry?</li>
-                            <li><strong>Number of accepted answers*</strong>
-                                <ul>
-                                    <li>Largest priority item as a signal for credibility</li>
-                                    <li>Others who have deemed that this person's answers are 'correct' as vetted by the community</li>
-                                </ul>
-                            </li>
-                            <li>What's the total number of posts in the community and from this number the number of answers provided. This unkonwn ratio would help build a helpfulness index.</li>
-                        </ul>
-                    </li>
-                </ul>
-
+               <table className="table--trust">
+                  <thead>
+                     <tr>
+                        <td>Location</td>
+                        <td>Signal</td>
+                        <td>Description</td>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td rowspan="3" valign="top">On the question page</td>
+                     </tr>
+                     <tr>
+                        <td>Number of upvotes</td>
+                        <td>How many people also have upvoted this answer</td>
+                     </tr>
+                     <tr>
+                        <td>Response types</td>
+                        <td>Number of comments to answers and how many times they have been 'liked' </td>
+                     </tr>
+                     <tr>
+                        <td rowspan="10" valign="top">Mini profile card (appears when hovering on author's avatar)</td>
+                     </tr>
+                     <tr>
+                        <td>Number of posts of author</td>
+                        <td>How many posts? a little or a lot?</td>
+                     </tr>
+                     <tr>
+                        <td>Author's name</td>
+                        <td>Is it a human name or an obscure name?</td>
+                     </tr>
+                     <tr>
+                        <td>Author's avatar</td>
+                        <td>Do they have one? Is it a real face? Just initials?</td>
+                     </tr>
+                     <tr>
+                        <td>Badges earned</td>
+                        <td>Which badges were earned specifically?</td>
+                     </tr>
+                     <tr>
+                        <td>Location</td>
+                        <td>Where are they located in the world?</td>
+                     </tr>
+                     <tr>
+                        <td>Company name</td>
+                        <td>What size of company do they work for?</td>
+                     </tr>
+                     <tr>
+                        <td>Job title</td>
+                        <td>Is it even in the realm of someone who I'd trust? Same industry?</td>
+                     </tr>
+                     <tr>
+                        <td>Accepted answers</td>
+                        <td>Others who have deemed that this person's answers are 'correct' as vetted by the community</td>
+                     </tr>
+                     <tr>
+                        <td>Successful answer ratio</td>
+                        <td>The total number of accepted answers divided by the total number posts in the community.</td>
+                     </tr>
+                  </tbody>
+               </table>
+               
                 <p>We also know from our data instrumentation that the hover event for the profile card occurs, on average, 126,000 times per month, denoting that it is getting a lot of attention and usage. This is roughly 29% of all accounted interactions on the site.</p>
 
                 <p class="subscript">* It makes total sense that the number of accepted answers in the community would elicit the most amount of trust. This has been echoed by many customers in various interviews.</p>
