@@ -1,6 +1,7 @@
 body {
    background: #252525;
    color: #ffffff;
+   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 section {
