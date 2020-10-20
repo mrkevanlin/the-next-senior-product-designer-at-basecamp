@@ -54,7 +54,7 @@ export default function Resume() {
                            <ul>
                               <li>Nov 2015 - Present</li>
                            </ul>
-                           <p>I have been proudly serving as a UX mentor for five years to students just about to leave the school and getting into real jobs and careers. I have helped 8 students find full-time design positions.</p>
+                           <p>I have been proudly serving as a UX mentor for five years to students who have recently graduated and getting into real jobs and careers. I have helped eight students find full-time design positions.</p>
                         </div>
                      </div>
                   </div>
