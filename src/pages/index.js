@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import HomeFilmstrip from "../components/home-filmstrip"
 import Promo from "../components/promo"
 import PrimaryButton from "../components/primaryButton"
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   return (
@@ -72,4 +73,18 @@ export default function Home() {
       
     </Layout>
   )
+}
+
+class Application extends React.Component {
+  render() {
+    return (
+      <div className="application">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Basecamp is my next happy place | Kevan Lin</title>
+          <link rel="canonical" href="http://heyseniorproductdesigner.design" />
+        </Helmet>
+      </div>
+    )
+  }
 }

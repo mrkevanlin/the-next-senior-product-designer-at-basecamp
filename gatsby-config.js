@@ -11,8 +11,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
@@ -39,7 +37,8 @@ module.exports = {
         sampleRate: 5,
         siteSpeedSampleRate: 10,
         cookieDomain: "heyseniorproductdesigner.design",
-      }
-    }
+      },
+      resolve: `gatsby-plugin-react-helmet`,
+    },
   ],
 }
