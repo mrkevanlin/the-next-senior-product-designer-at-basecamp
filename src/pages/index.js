@@ -9,6 +9,11 @@ import { Helmet } from "react-helmet"
 export default function Home() {
   return (
     <Layout>
+      <Helmet>
+          <meta charSet="utf-8" />
+          <title>Basecamp is my next happy place | Home | Kevan Lin</title>
+          <link rel="canonical" href="http://heyseniorproductdesigner.design" />
+      </Helmet>
       <section className="section--hero section--hero-home wrapper flex-container">
         <h2>Hey, my name is Kevan Lin</h2>
         <h1>I am a UX Designer who loves to speak multiple languages.</h1>
@@ -73,18 +78,4 @@ export default function Home() {
       
     </Layout>
   )
-}
-
-class Application extends React.Component {
-  render() {
-    return (
-      <div className="application">
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Basecamp is my next happy place | Kevan Lin</title>
-          <link rel="canonical" href="http://heyseniorproductdesigner.design" />
-        </Helmet>
-      </div>
-    )
-  }
 }

@@ -3,10 +3,16 @@ import Layout from "../components/Layout"
 import FamilyFilmStrip from "../components/family-filmstrip"
 import FoodFilmStrip from "../components/food-filmstrip"
 import FermentationFilmStrip from "../components/fermentation-filmstrip"
+import { Helmet } from "react-helmet"
 
 export default function Testimonials() {
   return (
     <Layout>
+       <Helmet>
+          <meta charSet="utf-8" />
+          <title>Personal | Kevan Lin</title>
+          <link rel="canonical" href="http://heyseniorproductdesigner.design" />
+      </Helmet>
        <section className="section--hero section--hero-personal wrapper flex-container">
           <h1>I'm a whole person, <br />not a cog in a machine.</h1>
           <div class="hero--details">

@@ -12,10 +12,16 @@ import qbsFinal2 from '../../images/qbs-final-2.png'
 import qbsFinal3 from '../../images/qbs-final-3.png'
 import qbsFinal4 from '../../images/qbs-final-4.png'
 import qbsFinalPostPage from '../../images/qbs-published-post-page.png'
+import { Helmet } from "react-helmet"
 
 export default function QBS() {
    return (
       <Layout>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>Improving the question creation experience with personalization techniques | Kevan Lin</title>
+            <link rel="canonical" href="http://heyseniorproductdesigner.design" />
+         </Helmet>
          <section className="section--hero section--hero-qbs wrapper flex-container">
             <div className="headline">
                <h1>Improving the question creation experience with personalization techniques.</h1>

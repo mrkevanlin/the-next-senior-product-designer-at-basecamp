@@ -6,10 +6,16 @@ import profileCard3 from '../../images/profile-card-previous.png'
 import profileCard4 from '../../images/profile-card-sidexside.png'
 import profileCard5 from '../../images/profile-card-annotations.png'
 import profileCard6 from '../../images/profile-card-states.png'
+import { Helmet } from "react-helmet"
 
 export default function ProfileCard() {
    return (
       <Layout>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>What goes into trusting an answer(er)? | Kevan Lin</title>
+            <link rel="canonical" href="http://heyseniorproductdesigner.design" />
+         </Helmet>
          <section className="section--hero section--hero-qbs wrapper flex-container">
             <div className="headline">
                <h1>What goes into trusting an answer(er)?</h1>

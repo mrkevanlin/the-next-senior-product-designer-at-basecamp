@@ -10,10 +10,16 @@ import Spiceworks from "../images/spiceworks.png"
 import tOSU from "../images/tosu.png"
 import Bostwick from "../images/bostwick.png"
 import FlatIron from "../images/flatironschool.png"
+import { Helmet } from "react-helmet"
 
 export default function Resume() {
    return (
       <Layout>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>My resume | Kevan Lin</title>
+            <link rel="canonical" href="http://heyseniorproductdesigner.design" />
+         </Helmet>
          <section className="section--hero wrapper flex-container">
             {/* <h1>History of hiring choices</h1> */}
             <h1>A record of handshakes through time and with different employers.</h1>

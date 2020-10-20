@@ -2,10 +2,16 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { Link } from 'gatsby'
 import SecondaryButton from "../components/secondaryButton"
+import { Helmet } from "react-helmet"
 
 export default function Work() {
    return (
       <Layout>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>My work | Kevan Lin</title>
+            <link rel="canonical" href="http://heyseniorproductdesigner.design" />
+         </Helmet>
          <section className="section--hero wrapper flex-container">
             <h1>Pencils down, hands up, time to show the work.</h1>
             <h2>You cannot understand good design if you do not understand people; design is made for people.<span className="author">-Dieter Rams</span></h2>

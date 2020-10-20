@@ -6,11 +6,16 @@
 
 module.exports = {
   plugins: [
+    `gatsby-plugin-typography`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-google-analytics`,
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
@@ -38,7 +43,6 @@ module.exports = {
         siteSpeedSampleRate: 10,
         cookieDomain: "heyseniorproductdesigner.design",
       },
-      resolve: `gatsby-plugin-react-helmet`,
     },
   ],
 }
